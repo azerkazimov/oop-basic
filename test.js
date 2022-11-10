@@ -1,22 +1,22 @@
-// function Person(name, age) {
-//   (this.name = name), (this.age = age);
-//   function greet(age) {
-//     const greet = "welcome";
-//     const getAway = "no ripe";
-//     if (age < 18) {
-//       return getAway + ' ' + name;
-//     } else {
-//       return greet + ' ' + name;
-//     }
-//   }
-//   console.log(`${greet(age)}`);
-// }
+function Person(name, age) {
+  (this.name = name), (this.age = age);
+  function greet(age) {
+    const greet = "welcome";
+    const getAway = "no ripe";
+    if (age < 18) {
+      return getAway + ' ' + name;
+    } else {
+      return greet + ' ' + name;
+    }
+  }
+  console.log(`${greet(age)}`);
+}
 
-// let person1 = new Person("Jack", 23); // welcome Jack
+let person1 = new Person("Jack", 23); // welcome Jack
 
-// let person2 = new Person("Mark", 22); // welcome Mark
+let person2 = new Person("Mark", 22); // welcome Mark
 
-// let person3 = new Person("Dave", 15); // no ripe Dave
+let person3 = new Person("Dave", 15); // no ripe Dave
 
 // ========================================================
 
